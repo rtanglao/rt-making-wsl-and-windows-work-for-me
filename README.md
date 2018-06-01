@@ -24,4 +24,10 @@ ruby -v
 sudo apt-get install zlib1g-dev
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install libssl-dev
+sudo gem update --system
+sudo gem install jekyll bundler
+sudo gem install redcarpet
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs 
+sudo npm install --global surge
 ```
