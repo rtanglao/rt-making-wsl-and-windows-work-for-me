@@ -11,6 +11,16 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 install stuff so i can compile ruby:
 
 ```bash
- sudo apt-get update
- sudo apt-get install build-essential
+sudo apt-get update
+sudo apt-get install build-essential
+cd
+wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
+tar -xzvf ruby-2.5.1.tar.gz
+cd ruby-2.5.1/
+./configure
+make
+sudo make install
+ruby -v
+
+ 
  ```
