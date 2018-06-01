@@ -21,6 +21,5 @@ cd ruby-2.5.1/
 make
 sudo make install
 ruby -v
-
- 
+sudo apt-get install zlib1g-dev
  ```
