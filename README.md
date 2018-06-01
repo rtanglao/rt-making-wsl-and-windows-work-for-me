@@ -17,13 +17,13 @@ cd
 wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
 tar -xzvf ruby-2.5.1.tar.gz
 cd ruby-2.5.1/
+sudo apt-get install zlib1g-dev
+sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt-get install libssl-dev
 ./configure
 make
 sudo make install
 ruby -v
-sudo apt-get install zlib1g-dev
-sudo apt-get update -y && sudo apt-get upgrade -y
-sudo apt-get install libssl-dev
 sudo gem update --system
 sudo gem install jekyll bundler
 sudo gem install redcarpet
