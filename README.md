@@ -22,4 +22,5 @@ make
 sudo make install
 ruby -v
 sudo apt-get install zlib1g-dev
+sudo apt-get update -y && sudo apt-get upgrade -y
  ```
