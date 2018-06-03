@@ -1,5 +1,18 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
+
+# 02June2018
+* from [How to setup github credential caching on Windows Linux subsystem](http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/)
+```bash
+git config --global credential.helper cache
+```
+* in  ~/.gitconfig but just in case here's the line to add
+
+```
+[credential]
+        helper = cache --timeout=144000
+```
+
 # 01June2018
 
 from: https://docs.microsoft.com/en-us/windows/wsl/install-win10: install linux (ubuntu in my case)
