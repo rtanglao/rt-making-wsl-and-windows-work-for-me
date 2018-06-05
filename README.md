@@ -6,7 +6,10 @@ WFM :-)
 ```bash
 wget -O /tmp/hugo_0.41_Linux-64bit.deb https://github.com/spf13/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
 sudo apt install /tmp/hugo_0.41_Linux-64bit.deb
+hugo version
+Hugo Static Site Generator v0.41 linux/amd64 BuildDate: 2018-05-25T16:57:20Z
 ```
+
 # 02June2018
 * from [How to setup github credential caching on Windows Linux subsystem](http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/)
 ```bash
