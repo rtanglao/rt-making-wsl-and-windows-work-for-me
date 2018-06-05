@@ -8,6 +8,8 @@ wget -O /tmp/hugo_0.41_Linux-64bit.deb https://github.com/spf13/hugo/releases/do
 sudo apt install /tmp/hugo_0.41_Linux-64bit.deb
 hugo version
 Hugo Static Site Generator v0.41 linux/amd64 BuildDate: 2018-05-25T16:57:20Z
+cd themes
+git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 ```
 
 # 02June2018
