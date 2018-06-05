@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 04June2018 Hugo
+
+```bash
+wget -O /tmp/hugo_0.41_Linux-64bit.deb https://github.com/spf13/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+sudo apt install /tmp/hugo_0.41_Linux-64bit.deb
+```
 # 02June2018
 * from [How to setup github credential caching on Windows Linux subsystem](http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/)
 ```bash
