@@ -1,6 +1,27 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 28June2018 Mongodb
+see https://gist.github.com/Mikeysax/cc86c30903727c556bcce960f7e4d59b
+
+```bash
+    Open a Windows PowerShell and type wsl.
+    Type cd ~ to go to the root of the Ubuntu File System.
+    Paste sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+
+    This will "... import the MongoDB public GPG Key" so we can use the official MongoDB supported pkg in apt.
+
+    Paste echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+
+    This will add the deb to your sources list.
+    Note that you must be on Ubuntu Xenial. When Zesty gets LTS we will update this doc.
+
+    Reload your local pkg database by typing sudo apt-get update.
+    Run the install command by pasting sudo apt-get install -y mongodb-org.
+
+    This will install the most stable version of mongod, 3.6 at time of writing. If you want to install a different version please refer to the link above.
+```
+
 # 04June2018 Hugo
 
 ```bash
