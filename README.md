@@ -1,6 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
-
+# 30June2018-7z-unzip
+* used 7-Zip to un-compress emacs
+# 30June2018-emacs
+* https://github.com/m-parashar/emax64/releases/
+** emax64-pdumper-bin-20180619.7z
+** installed into ~/Documents
 # 28June2018 Mongodb
 see https://gist.github.com/Mikeysax/cc86c30903727c556bcce960f7e4d59b
 
