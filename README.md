@@ -1,5 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
+# 07September2018 libcurl  and curl.h
+
+```bash
+sudo apt-get install libcurl4-openssl-dev
+```
+
 # 30June2018-7z-unzip
 * used 7-Zip to un-compress emacs
 # 30June2018-emacs
