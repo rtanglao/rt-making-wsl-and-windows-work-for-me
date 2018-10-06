@@ -1,5 +1,15 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
+
+# 06October2018 update to git 2.19.1
+
+* because of this security advisory https://marc.info/?l=git&m=153875888916397&w=2
+
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
+
 # 07September2018 libcurl  and curl.h
 
 ```bash
