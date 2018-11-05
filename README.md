@@ -1,7 +1,7 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
-# 04Novemnber2018 added zsh
+# 04November2018 added zsh
 * installed zsh with apt-get
 * installed xtitle with apt-get
 * added zsh to the end of ~/.bashrc
