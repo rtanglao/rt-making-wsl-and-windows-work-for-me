@@ -4,8 +4,8 @@ WFM :-)
 # 04Novemnber2018 added zsh
 * installed zsh with apt-get
 * installed xtitle with apt-get
-* added zsh to the end of ~/.bashr
-* the above enabled ```xtitle blah``` ! xtitle didn't work in bash
+* added zsh to the end of ~/.bashrc
+* the above enabled ```xtitle blah``` ! xtitle didn't work in bash i.e. it didn't set the tite of the window in the Windows 10 launchbar
 
 # 06October2018 update to git 2.19.1
 
