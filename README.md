@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 04Novemnber2018 added zsh
+* installed zsh with apt-get
+* installed xtitle with apt-get
+* added zsh to the end of ~/.bashr
+* the above enabled ```xtitle blah``` ! xtitle didn't work in bash
+
 # 06October2018 update to git 2.19.1
 
 * because of this security advisory https://marc.info/?l=git&m=153875888916397&w=2
