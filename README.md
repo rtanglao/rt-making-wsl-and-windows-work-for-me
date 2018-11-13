@@ -1,6 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 12november 2018 add imagemagick
+```bash
+$ sudo apt-get install imagemagick
+```
+
 # 04November2018 added zsh
 * installed zsh with apt-get
 * installed xtitle with apt-get
