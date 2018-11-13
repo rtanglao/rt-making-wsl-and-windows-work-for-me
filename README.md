@@ -3,7 +3,8 @@ WFM :-)
 
 # 12november 2018 add imagemagick
 ```bash
-$ sudo apt-get install imagemagick
+sudo apt-get update
+sudo apt-get install imagemagick
 ```
 
 # 04November2018 added zsh
