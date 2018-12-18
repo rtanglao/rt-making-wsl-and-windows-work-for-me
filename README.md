@@ -1,11 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
-# 17december2018 install node
+# 17december2018 install node and surge
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install -y nodejs
+sudo npm install --global surge
 ```
 # 17december2018 add exclusion for Windows Defender
 
