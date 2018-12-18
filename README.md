@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 17december2018 install node
+
+```bash
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 # 17december2018 add exclusion for Windows Defender
 
 * https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
