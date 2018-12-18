@@ -1,6 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 17december2018 add exclusion for Windows Defender
+
+* https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
+
+
 # 17december2018 after re-install of Windows 10, install ruby 2.5.3
 
 ```bash
