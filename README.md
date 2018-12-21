@@ -1,6 +1,19 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 20december2018 installing zsh
+
+```bash
+sudo apt-get install zsh
+sudo apt-get install xtitle
+zsh
+# picked 2 as in:
+# (2)  Populate your ~/.zshrc with the configuration recommended
+#     by the system administrator and exit (you will need to edit
+#     the file by hand, if so desired).
+# added zsh to the end of ~/.bashrc
+```
+
 # 17december2018 install mongodb 4.0.4
 
 * https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages
