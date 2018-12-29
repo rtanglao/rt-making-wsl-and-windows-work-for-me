@@ -18,6 +18,11 @@ sudo apt-get update && sudo apt-get install sublime-text
 ```bash
 sudo apt-get install libgtk2.0
 ```
+* and then to make sublime package control work as per [https://packagecontrol.io/installation](https://packagecontrol.io/installation):
+
+```bash
+mkdir ~/.config/sublime-text-3/Installed Packages
+```
 
 # 20december2018 installing zsh
 
