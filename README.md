@@ -1,6 +1,10 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 28December2018 let's try installing X windows and sublime
+
+* from [Windows Subsystem for Linux - Editor (GUI) Setup](https://www.lambrospetrou.com/articles/windows-linux-subsystem-editor-setup/) 
+  * https://sourceforge.net/projects/xming/
 # 20december2018 installing zsh
 
 ```bash
