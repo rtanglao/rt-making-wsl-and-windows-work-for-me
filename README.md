@@ -1,6 +1,13 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 01January2019 can't make sublime markdown theme's work 
+
+```
+Error loading syntax file "Packages/Markdown/Markdown.sublime-syntax": 
+Unable to read Packages/Markdown/Markdown.sublime-syntax
+```
+
 # 28December2018 let's try installing X windows and sublime
 
 * from [Windows Subsystem for Linux - Editor (GUI) Setup](https://www.lambrospetrou.com/articles/windows-linux-subsystem-editor-setup/) 
