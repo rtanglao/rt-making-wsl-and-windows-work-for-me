@@ -27,6 +27,22 @@ sudo apt-get remove  openssh-server
 sudo apt-get install  openssh-server
 ```
 
+<blockquote>
+ A few other parameters will also need to be changed in the OpenSSH configuration file. The file -- /etc/ssh/sshd_config -- will need to be edited to add/change the following:
+
+Change - PermitRootLogin no
+Add - AllowUsers yourusername
+Change - PasswordAuthentication yes
+Add - UsePrivilegeSeparation no
+Change - ListenAddress 0.0.0.0
+Change - Port 2200
+
+After these changes have been made, the SSH service will need to be restarted:
+
+# sudo service ssh --full-restart
+</blockquote>
+
+
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
