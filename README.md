@@ -1,6 +1,25 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 02January2019 making firefox work
+
+* fix fonts, make dbus work
+```bash
+sudo apt-get install dbus-x11
+sudo apt-get install ubuntu-desktop
+```
+
+* in firefox turn off multi-process from cor-e, UNSUPPORTED!!! ( from https://support.mozilla.org/nl/questions/1167673 )
+```
+You can disable multi-process windows in Firefox by setting these prefs to false on the about:config page.
+
+   
+   browser.tabs.remote.autostart = false
+   
+   browser.tabs.remote.autostart.2 = false 
+```
+
+
 # 01January2019 installing R
 * from: https://linuxize.com/post/how-to-install-r-on-ubuntu-18-04/
 
