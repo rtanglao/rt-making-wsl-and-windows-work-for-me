@@ -68,6 +68,8 @@ echo "VERSION ${RSTUDIO_VERSION}"
 sudo wget -q http://download2.rstudio.org/rstudio-server-${RSTUDIO_VERSION}-amd64.deb
 sudo gdebi --non-interactive rstudio-server-${RSTUDIO_VERSION}-amd64.deb
 sudo rm rstudio-server-*-amd64.deb 
+# run rstudio on the windows side!
+http://localhost:8787 # https://localhost:8787 didn't work!
 ```
 # 01January2019 can't make sublime markdown theme's work 
 
