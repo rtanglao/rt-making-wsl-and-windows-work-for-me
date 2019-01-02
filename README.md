@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 02January2019 making timezones work
+
+```bash
+sudo dpkg-reconfigure tzdata
+```
+
 # 02January2019 making firefox work
 
 * fix fonts, make dbus work
