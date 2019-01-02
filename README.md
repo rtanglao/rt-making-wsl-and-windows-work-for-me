@@ -14,6 +14,12 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 51716619E084DAB9
 sudo apt-get update
 ```
 
+* and then install R
+from: http://johnmuschelli.com/neuroc/windows_wsl/index.html
+```bash
+sudo apt-get install r-base
+```
+
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
