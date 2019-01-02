@@ -47,6 +47,12 @@ After these changes have been made, the SSH service will need to be restarted:
 \# sudo service ssh --full-restart
 </blockquote>
 
+* install x11 programs just like 1985 :-)
+
+```bash
+sudo apt-get install x11-apps
+```
+
 
 # 01January2019 can't make sublime markdown theme's work 
 
