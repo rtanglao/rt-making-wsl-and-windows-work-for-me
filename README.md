@@ -71,6 +71,16 @@ sudo rm rstudio-server-*-amd64.deb
 # run rstudio on the windows side!
 http://localhost:8787 # https://localhost:8787 didn't work!
 ```
+
+* install r dev tools pre requisites
+
+```bash
+sudo apt-get update -qq -y
+sudo apt-get install -y libgit2-dev 
+sudo apt-get install -y libcurl4-openssl-dev libssl-dev
+sudo apt-get install -y zlib1g-dev libssh2-1-dev libpq-dev libxml2-dev 
+sudo apt-get install -y libhdf5
+```
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
