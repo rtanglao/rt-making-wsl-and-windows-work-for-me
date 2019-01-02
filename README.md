@@ -20,6 +20,13 @@ from: http://johnmuschelli.com/neuroc/windows_wsl/index.html
 sudo apt-get install r-base
 ```
 
+* and then install openssh as per https://virtualizationreview.com/articles/2017/02/08/graphical-programs-on-windows-subsystem-on-linux.aspx
+
+```bash
+sudo apt-get remove  openssh-server
+sudo apt-get install  openssh-server
+```
+
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
