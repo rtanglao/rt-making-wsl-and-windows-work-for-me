@@ -57,6 +57,7 @@ sudo apt-get install x11-apps
 
 ```bash
 sudo apt-get install firefox
+/usr/bin/x-www-browser # to invoke firefox on X!
 ```
 
 # 01January2019 can't make sublime markdown theme's work 
