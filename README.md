@@ -12,6 +12,7 @@ sudo dpkg-reconfigure tzdata
 * fix fonts, make dbus work
 ```bash
 sudo apt-get install dbus-x11
+sudo service dbus start
 sudo apt-get install ubuntu-desktop
 ```
 
