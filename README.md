@@ -1,6 +1,19 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 01January2019 installing R
+* from: https://linuxize.com/post/how-to-install-r-on-ubuntu-18-04/
+
+```bash
+sudo vi /etc/apt/sources.list
+# and add the following line to the end:
+# deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/
+sudo apt install apt-transport-https software-properties-common
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 51716619E084DAB9 
+# above line is from https://askubuntu.com/questions/610449/w-gpg-error-the-following-signatures-couldnt-be-verified-because-the-public-k
+sudo apt-get update
+```
+
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
