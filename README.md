@@ -60,6 +60,15 @@ sudo apt-get install firefox
 /usr/bin/x-www-browser # to invoke firefox on X!
 ```
 
+* install rstudio and gdebi
+
+```bash
+export RSTUDIO_VERSION=$(wget --no-check-certificate -qO- https://s3.amazonaws.com/rstudio-server/current.ver)
+echo "VERSION ${RSTUDIO_VERSION}"
+sudo wget -q http://download2.rstudio.org/rstudio-server-${RSTUDIO_VERSION}-amd64.deb
+sudo gdebi --non-interactive rstudio-server-${RSTUDIO_VERSION}-amd64.deb
+sudo rm rstudio-server-*-amd64.deb 
+```
 # 01January2019 can't make sublime markdown theme's work 
 
 ```
