@@ -53,6 +53,11 @@ After these changes have been made, the SSH service will need to be restarted:
 sudo apt-get install x11-apps
 ```
 
+* install firefox just for fun :-) not sure how good it will work !
+
+```bash
+sudo apt-get install firefox
+```
 
 # 01January2019 can't make sublime markdown theme's work 
 
