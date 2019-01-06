@@ -1,6 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 04January2019 install libsasl2-dev to be able to install mongolite package
+
+```bash
+sudo apt-get install libsasl2-dev
+```
 # 02January2019 making timezones work
 
 ```bash
