@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 08January2019 how to start up R Studio server after every reboot on WSL
+
+```bash
+sudo rstudio-server start
+```
+
 # 04January2019 install libsasl2-dev to be able to install mongolite package
 
 ```bash
