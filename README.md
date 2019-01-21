@@ -1,6 +1,13 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 20January2019 install wsl-open to replace open, works for PNGs
+
+```bash
+sudo npm install -g wsl-open
+open blah.png # launches photos on the windows side after copying the file to windows
+```
+
 # 08January2019 how to start up R Studio server after every reboot on WSL
 
 ```bash
