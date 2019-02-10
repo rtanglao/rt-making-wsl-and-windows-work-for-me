@@ -21,7 +21,7 @@ ruby -v
 sudo gem update --system
 sudo gem install jekyll bundler
 sudo gem install redcarpet
-``bash
+```
 
 # 20January2019 install wsl-open to replace open, works for PNGs
 
