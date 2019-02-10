@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 10february2019 install miller for concatenating files
+
+```bash
+sudo apt-get install miller
+```
+
 # 09February2019 install ruby 2.6.1 to get readline support
 
 ```bash
