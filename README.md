@@ -1,6 +1,12 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 31march2019 
+
+```bash
+ install.packages('jpeg')
+```
+
 # 10february2019 install miller for concatenating files
 
 ```bash
