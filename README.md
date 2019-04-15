@@ -1,6 +1,17 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 15april2019 pip
+
+```
+mkdir PIP
+cd PIP
+sudo  apt-get install python3-venv
+python3 -m venv .
+source bin/activate
+pip3 install pandas
+ ```
+
 # 31march2019 
 
 ```bash
