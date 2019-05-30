@@ -7,6 +7,16 @@ WFM :-)
 * got it from https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/
     * url changes every day but the one for firefox 69 nightly is : 
         * https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-69.0a1.en-US.win64-aarch64.installer.exe
+
+## 30May2019 installing node without sudo
+
+as of this writing node version is node 12.3.1
+
+```bash
+touch ~/.bashrc
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+nvm install node
+```
     
 # 15april2019 pip
 
