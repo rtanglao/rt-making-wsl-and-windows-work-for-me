@@ -1,6 +1,13 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 29-30May2019 ARM64 Windows 10 Laptop Lenovo Yoga C630
+## 29May2019 installing firefox arm64 windows
+
+* got it from https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/
+    * url changes every day but the one for firefox 69 nightly is : 
+        * https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-69.0a1.en-US.win64-aarch64.installer.exe
+    
 # 15april2019 pip
 
 ```
