@@ -24,7 +24,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | b
 nvm install node
 ```
 
-##30may2019 installing latest version of git
+## 30may2019 installing latest version of git
 
 ```bash
 sudo add-apt-repository ppa:git-core/ppa
