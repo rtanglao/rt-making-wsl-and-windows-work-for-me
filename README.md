@@ -7,6 +7,11 @@ WFM :-)
 * got it from https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/
     * url changes every day but the one for firefox 69 nightly is : 
         * https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-69.0a1.en-US.win64-aarch64.installer.exe
+        
+## 30May2019 installing ruby 2.6.3
+
+* I followed the ruby 2.6.1 instructions below but changed ```2.6.1``` to ```2.6.3```:
+    * https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#09february2019-install-ruby-261-to-get-readline-support
 
 ## 30May2019 installing node without sudo
 
