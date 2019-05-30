@@ -10,7 +10,8 @@ WFM :-)
 
 ## 30May2019 installing node without sudo
 
-as of this writing node version is node 12.3.1
+* as of this writing node version is node 12.3.1, the following instructions are from:
+    * https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c
 
 ```bash
 touch ~/.bashrc
