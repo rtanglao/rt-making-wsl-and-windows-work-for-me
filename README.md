@@ -1,6 +1,8 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 03June2019 Firefox Nightly Directory location
+
 ```bash
 pwd
 /mnt/c/Program Files
@@ -11,8 +13,6 @@ rtanglao@DESKTOP-352B1J1:/mnt/c/Program Files$ ls
  ModifiableWindowsApps   'Windows Media Player'                         'Windows Security'
 'Uninstall Information'  'Windows Multimedia Platform'                   WindowsApps
 ```
-
-# 03June2019 Firefox Nightly Directory location
 
 # 29-30May2019 ARM64 Windows 10 Laptop Lenovo Yoga C630
 ## 29May2019 installing firefox arm64 windows
