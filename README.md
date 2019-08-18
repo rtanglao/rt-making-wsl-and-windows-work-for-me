@@ -1,6 +1,23 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 18August2019 Installing ImageMagick 7.0.9
+
+* from https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux ; insalled on Lenovo ARM 64 C630 
+
+```bash
+cd
+wget https://www.imagemagick.org/download/ImageMagick.tar.gz
+tar xf ImageMagick.tar.gz
+cd ImageMagick-7.0.8-61/
+./configure
+make
+sudo make install
+sudo ldconfig /usr/local/lib
+identify -version
+magick -version
+```
+
 # 03June2019 Firefox Nightly Directory location
 
 ```bash
