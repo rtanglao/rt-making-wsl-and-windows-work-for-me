@@ -3,7 +3,7 @@ WFM :-)
 
 # 18August2019 Installing ImageMagick 7.0.9
 
-* from https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux ; insalled on Lenovo ARM 64 C630 
+* from https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux ; installed on Lenovo ARM 64 C630 
 
 ```bash
 cd
