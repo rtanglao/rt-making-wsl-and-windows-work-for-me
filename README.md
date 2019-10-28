@@ -3,7 +3,7 @@ WFM :-)
 
 # 27october2019 less -r
 
-`less -r` to ue cursor keys and evaluate the escape sequences
+`less -r` to use cursor keys and evaluate the escape sequences (`more` doesn't work with the cursor keys)
 
 # 27October2019 making wsl work better with dbus and yet another terminal with better copy and paste, xfce
 
