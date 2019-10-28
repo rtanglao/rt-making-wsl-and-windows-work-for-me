@@ -1,6 +1,15 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 27October2019 making wsl work better with dbus and yet another terminal with better copy and paste, xfce
+
+```bash
+sudo apt-get install xfce4-terminal
+xfce4-terminal & # (shift control C/V to copy paste)
+sudo apt-get install dbus-x11 
+sudo service dbus start  
+```
+
 # 18August2019 Installing ImageMagick 7.0.9
 
 * from https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux ; installed on Lenovo ARM 64 C630 
