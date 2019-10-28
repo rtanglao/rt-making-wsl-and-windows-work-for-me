@@ -1,6 +1,10 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 27october2019 less -r
+
+`less -r` to ue cursor keys and evaluate the escape sequences
+
 # 27October2019 making wsl work better with dbus and yet another terminal with better copy and paste, xfce
 
 ```bash
