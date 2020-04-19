@@ -1,6 +1,13 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+# 19april2020 rolling roland
+
+```bash
+hugo new post/2020-04-19-p2-please-do-not-run-on-the-road.md 
+hugo server -t beautifulhugo --buildDrafts
+```
+
 # 27october2019 less -r
 
 `less -r` to use cursor keys and evaluate the escape sequences (`more` doesn't work with the cursor keys)
