@@ -5,7 +5,7 @@ WFM :-)
 
 ```bash
 hugo new post/2020-04-19-p2-please-do-not-run-on-the-road.md 
-hugo server --buildDrafts
+hugo server --buildDrafts --disableFastRender --renderToDisk &
 ```
 
 # 27october2019 less -r
