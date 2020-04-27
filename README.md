@@ -4,7 +4,9 @@ WFM :-)
 # 27april2020 extracting urls from a markdown file of SUMO support questions
 
 ```bash
-grep -o 'https*://support.mozilla.org/questions/[^)]*' sorted-all-desktop-en-us-2020-04-18-2020-04-18-firefox-creator-answers-desktop-all-locales.md 
+grep -o 'https*://support.mozilla.org/questions/[^)]*' \
+sorted-all-desktop-en-us-2020-04-18-2020-04-18-firefox-creator-answers-desktop-all-locales.md\
+xargs -n 1 open
 https://support.mozilla.org/questions/1284815
 https://support.mozilla.org/questions/1284816
 https://support.mozilla.org/questions/1284817
