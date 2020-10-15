@@ -1,6 +1,13 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+## 15october2020 reinstalling node and surge
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+nvm install node --lts
+npm install --global surge
+```
 # 27april2020 extracting urls from a markdown file of SUMO support questions
 
 ```bash
