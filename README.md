@@ -1,6 +1,14 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+## 15october2020 reinstalling jekyll and getting the blog to work with ruby 2.7
+
+```bash
+rm Gemfile.lock
+bundle install
+```
+
+
 ## 15october2020 reinstalling node and surge
 
 ```bash
