@@ -1,6 +1,11 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+## 17january2021 forcing a time update in WSL
+if you close the lid of a laptop running WSL (or I guess put a desktop to sleep), WSL's Unix time gets stuck a the time you closed the lid. never noticed this before because i never closed the lid or put the surface book 2 to sleep  prior to the arrive of the XPS13
+```bash
+sudo ntpdate -s time.nist.gov
+```
 ## 15october2020 reinstalling jekyll and getting the blog to work with ruby 2.7
 
 ```bash
