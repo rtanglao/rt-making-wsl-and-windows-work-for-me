@@ -1,6 +1,28 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+## 19september2021 systemctl
+
+* 1\.followed instructions at https://github.com/DamionGans/ubuntu-wsl2-systemd-script
+```bash
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+# Enter your password and wait until the script has finished
+```
+and then 
+* 2\. issue [44](https://github.com/DamionGans/ubuntu-wsl2-systemd-script/issues/44)
+
+```
+
+    Open a CMD or Powershell
+    wsl -u root
+    sudo apt-get install daemonize
+    Restart your WSL instance
+    Profit
+
+```
+
 ## 17january2021 forcing a time update in WSL
 if you close the lid of a laptop running WSL (or I guess put a desktop to sleep), WSL's Unix time gets stuck a the time you closed the lid. never noticed this before because i never closed the lid or put the surface book 2 to sleep  prior to the arrive of the XPS13
 ```bash
