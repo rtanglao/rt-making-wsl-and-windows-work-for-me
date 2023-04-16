@@ -1,6 +1,9 @@
 # rt-making-wsl-and-windows-work-for-me
 WFM :-)
 
+## 2023-04-16 systemd is now built into WSL :-))
+* http://rolandtanglao.com/2023/04/16/p2-systemd-part-of-wsl-window11/
+
 ## 19september2021 systemctl
 
 * 1\.followed instructions at https://github.com/DamionGans/ubuntu-wsl2-systemd-script
